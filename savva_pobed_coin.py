@@ -52,7 +52,7 @@ for i in range(TEST_COUNT):
     if guess_method2(savva, pobed):
         right_method2 += 1
 
-print(right_simple / TEST_COUNT)
-print(right_method1 / TEST_COUNT)
-print(right_method2 / TEST_COUNT)
+print("Простейший способ:", right_simple / TEST_COUNT)
+print("Решение первым способом:", right_method1 / TEST_COUNT)
+print("Решение вторым способом:", right_method2 / TEST_COUNT)
 
